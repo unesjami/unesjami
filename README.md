@@ -31,7 +31,6 @@ My work spans designing digital products, developing backend services, integrati
   <img width="100%" src="./assets/analytics.svg" alt="Repository growth, primary repository languages, and project focus as of October 2026">
 </p>
 
-<sub>Portfolio overview as of October 16, 2026. Statistics include repository metadata for public and private work, not contribution counts or code-language percentages.</sub>
 
 ## Engineering Focus
 
