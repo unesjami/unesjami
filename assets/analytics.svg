@@ -1,39 +1,59 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" role="img" aria-labelledby="title desc">
-  <title id="title">Engineering focus</title>
-  <desc id="desc">Three technical areas: AI and Telegram automation, web applications and cloud services, and robotics and computer vision. Illustrative categories, not fabricated GitHub activity statistics.</desc>
-  <rect width="1200" height="340" rx="18" fill="#ffffff"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="350" viewBox="0 0 1200 350" role="img" aria-labelledby="title desc">
+  <title id="title">GitHub activity and project portfolio</title>
+  <desc id="desc">Accurate repository growth timeline for 15 non-profile repositories as of October 16, 2026, and charts of repository primary language and project focus. Includes private projects without linking private source code. These are not GitHub contribution statistics.</desc>
+  <defs>
+    <linearGradient id="growth" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#22c55e" stop-opacity="0.25"/>
+      <stop offset="1" stop-color="#22c55e" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-35%" width="140%" height="170%">
+      <feGaussianBlur stdDeviation="2.2" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="1200" height="350" rx="18" fill="#ffffff"/>
   <g font-family="Segoe UI,Arial,sans-serif">
-    <text x="600" y="49" text-anchor="middle" font-size="25" fill="#0f172a" font-weight="700">Engineering Focus</text>
-    <text x="600" y="75" text-anchor="middle" font-size="14" fill="#64748b">Practical systems across software, AI, and hardware</text>
-    <g transform="translate(30 105)">
-      <rect width="360" height="202" rx="18" fill="#f8fafc" stroke="#cbd5e1"/>
-      <rect width="7" height="202" rx="3.5" fill="#0ea5e9"/>
-      <circle cx="46" cy="45" r="19" fill="#e0f2fe"/>
-      <path d="M36 45h20M46 35v20" stroke="#0284c7" stroke-width="3" stroke-linecap="round"/>
-      <text x="75" y="51" font-size="19" font-weight="700" fill="#0f172a">AI &amp; Automation</text>
-      <text x="29" y="94" font-size="15" fill="#475569">AI agents and API integration</text>
-      <text x="29" y="124" font-size="15" fill="#475569">Telegram bots and workflows</text>
-      <text x="29" y="154" font-size="15" fill="#475569">Python · FastAPI · Webhooks</text>
+    <g transform="translate(20 14)">
+      <rect width="370" height="324" rx="15" fill="#f8fafc" stroke="#e2e8f0"/>
+      <text x="185" y="32" text-anchor="middle" fill="#0f172a" font-weight="700" font-size="19">Repository Growth</text>
+      <text x="185" y="54" text-anchor="middle" fill="#64748b" font-size="12">Project repositories · last 12 months</text>
+      <g stroke="#e2e8f0" stroke-width="1"><path d="M17 78H346 M17 126H346 M17 175H346 M17 224H346"/></g>
+      <path d="M 17,224 L 130.7,214.3 L 149.6,204.6 L 270.0,194.9 L 273.6,185.2 L 279.0,175.5 L 284.4,165.8 L 312.3,156.1 L 314.1,146.4 L 317.7,136.7 L 318.6,127.0 L 324.0,117.3 L 328.5,107.6 L 338.4,97.9 L 342.0,88.2 L 345.6,78.5 L 345.6,224 Z" fill="url(#growth)"/>
+      <polyline points="17.0,224.0 130.7,214.3 149.6,204.6 270.0,194.9 273.6,185.2 279.0,175.5 284.4,165.8 312.3,156.1 314.1,146.4 317.7,136.7 318.6,127.0 324.0,117.3 328.5,107.6 338.4,97.9 342.0,88.2 345.6,78.5" fill="none" stroke="#16a34a" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" filter="url(#glow)"/>
+      <circle cx="345.6" cy="78.5" r="5" fill="#16a34a" stroke="#fff" stroke-width="2"/>
+      <text x="17" y="248" fill="#64748b" font-size="11">Oct '25</text><text x="113" y="248" fill="#64748b" font-size="11">Feb</text><text x="218" y="248" fill="#64748b" font-size="11">Jun</text><text x="320" y="248" fill="#64748b" font-size="11">Oct '26</text>
+      <text x="185" y="285" text-anchor="middle" font-size="21" font-weight="700" fill="#0f172a">15 projects</text>
+      <text x="185" y="306" text-anchor="middle" font-size="12" fill="#64748b">7 new since Sep 15, 2026</text>
     </g>
-    <g transform="translate(420 105)">
-      <rect width="360" height="202" rx="18" fill="#f8fafc" stroke="#cbd5e1"/>
-      <rect width="7" height="202" rx="3.5" fill="#6366f1"/>
-      <circle cx="46" cy="45" r="19" fill="#eef2ff"/>
-      <path d="M35 39h22v15H35zM40 59h12" fill="none" stroke="#4f46e5" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
-      <text x="75" y="51" font-size="19" font-weight="700" fill="#0f172a">Web &amp; Cloud</text>
-      <text x="29" y="94" font-size="15" fill="#475569">Full-stack web applications</text>
-      <text x="29" y="124" font-size="15" fill="#475569">Cloudflare Workers · D1 · R2</text>
-      <text x="29" y="154" font-size="15" fill="#475569">React · TypeScript · APIs</text>
+    <g transform="translate(415 14)">
+      <rect width="370" height="324" rx="15" fill="#f8fafc" stroke="#e2e8f0"/>
+      <text x="185" y="32" text-anchor="middle" fill="#0f172a" font-weight="700" font-size="19">Repository Languages</text>
+      <text x="185" y="52" text-anchor="middle" fill="#64748b" font-size="12">Primary GitHub language · by repo</text>
+      <circle cx="185" cy="145" r="64" fill="none" stroke="#2563eb" stroke-width="22" stroke-linecap="round" pathLength="100" stroke-dasharray="38.80 61.20" stroke-dashoffset="-0.60" transform="rotate(-90 185 145)"/>
+<circle cx="185" cy="145" r="64" fill="none" stroke="#0ea5e9" stroke-width="22" stroke-linecap="round" pathLength="100" stroke-dasharray="18.80 81.20" stroke-dashoffset="-40.60" transform="rotate(-90 185 145)"/>
+<circle cx="185" cy="145" r="64" fill="none" stroke="#f59e0b" stroke-width="22" stroke-linecap="round" pathLength="100" stroke-dasharray="12.13 87.87" stroke-dashoffset="-60.60" transform="rotate(-90 185 145)"/>
+<circle cx="185" cy="145" r="64" fill="none" stroke="#14b8a6" stroke-width="22" stroke-linecap="round" pathLength="100" stroke-dasharray="12.13 87.87" stroke-dashoffset="-73.93" transform="rotate(-90 185 145)"/>
+<circle cx="185" cy="145" r="64" fill="none" stroke="#6366f1" stroke-width="22" stroke-linecap="round" pathLength="100" stroke-dasharray="12.13 87.87" stroke-dashoffset="-87.27" transform="rotate(-90 185 145)"/>
+      <text x="185" y="147" text-anchor="middle" fill="#0f172a" font-size="25" font-weight="700">15</text>
+      <text x="185" y="166" text-anchor="middle" fill="#64748b" font-size="11">repos</text>
+      <circle cx="24" cy="254" r="5" fill="#2563eb"/><text x="36" y="258" font-size="13" fill="#334155">Python · 6</text>
+      <circle cx="180" cy="254" r="5" fill="#0ea5e9"/><text x="192" y="258" font-size="13" fill="#334155">TypeScript · 3</text>
+      <circle cx="24" cy="277" r="5" fill="#f59e0b"/><text x="36" y="281" font-size="13" fill="#334155">JavaScript · 2</text>
+      <circle cx="180" cy="277" r="5" fill="#14b8a6"/><text x="192" y="281" font-size="13" fill="#334155">C++ · 2</text>
+      <circle cx="24" cy="300" r="5" fill="#6366f1"/><text x="36" y="304" font-size="13" fill="#334155">HTML · 2</text>
     </g>
-    <g transform="translate(810 105)">
-      <rect width="360" height="202" rx="18" fill="#f8fafc" stroke="#cbd5e1"/>
-      <rect width="7" height="202" rx="3.5" fill="#14b8a6"/>
-      <circle cx="46" cy="45" r="19" fill="#ccfbf1"/>
-      <path d="M36 38l10 7-10 7M49 52h9" fill="none" stroke="#0f766e" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
-      <text x="75" y="51" font-size="19" font-weight="700" fill="#0f172a">Robotics &amp; Vision</text>
-      <text x="29" y="94" font-size="15" fill="#475569">Embedded hardware and sensors</text>
-      <text x="29" y="124" font-size="15" fill="#475569">Gesture and Bluetooth control</text>
-      <text x="29" y="154" font-size="15" fill="#475569">Arduino · ESP32 · OpenCV</text>
+    <g transform="translate(810 14)">
+      <rect width="370" height="324" rx="15" fill="#f8fafc" stroke="#e2e8f0"/>
+      <text x="185" y="32" text-anchor="middle" fill="#0f172a" font-weight="700" font-size="19">Project Focus</text>
+      <text x="185" y="52" text-anchor="middle" fill="#64748b" font-size="12">Portfolio groupings · by repo</text>
+      <circle cx="185" cy="145" r="64" fill="none" stroke="#0ea5e9" stroke-width="22" stroke-linecap="round" pathLength="100" stroke-dasharray="52.13 47.87" stroke-dashoffset="-0.60" transform="rotate(-90 185 145)"/>
+<circle cx="185" cy="145" r="64" fill="none" stroke="#6366f1" stroke-width="22" stroke-linecap="round" pathLength="100" stroke-dasharray="32.13 67.87" stroke-dashoffset="-53.93" transform="rotate(-90 185 145)"/>
+<circle cx="185" cy="145" r="64" fill="none" stroke="#14b8a6" stroke-width="22" stroke-linecap="round" pathLength="100" stroke-dasharray="12.13 87.87" stroke-dashoffset="-87.27" transform="rotate(-90 185 145)"/>
+      <text x="185" y="147" text-anchor="middle" fill="#0f172a" font-size="25" font-weight="700">15</text>
+      <text x="185" y="166" text-anchor="middle" fill="#64748b" font-size="11">repos</text>
+      <circle cx="83" cy="249" r="5" fill="#0ea5e9"/><text x="95" y="253" font-size="13" fill="#334155">AI &amp; Bots · 8</text>
+      <circle cx="83" cy="273" r="5" fill="#6366f1"/><text x="95" y="277" font-size="13" fill="#334155">Web &amp; Cloud · 5</text>
+      <circle cx="83" cy="297" r="5" fill="#14b8a6"/><text x="95" y="301" font-size="13" fill="#334155">Robotics · 2</text>
     </g>
   </g>
 </svg>
