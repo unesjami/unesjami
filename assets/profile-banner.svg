@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title desc">
-  <title id="title">Unes Jami — AI Automation Engineer</title>
+  <title id="title">Unes Jami — AI Automation &amp; Robotics Developer</title>
   <desc id="desc">Minimal white banner with mirrored animated neural networks.</desc>
   <defs>
     <radialGradient id="glow">
@@ -59,7 +59,7 @@
 
   <g text-anchor="middle" font-family="'Trebuchet MS','Segoe UI',Arial,sans-serif">
     <text x="600" y="126" fill="#111827" font-size="53" font-weight="700">Unes Jami</text>
-    <text x="600" y="174" fill="#0284c7" font-size="24" font-weight="600">AI Automation Engineer</text>
-    <text x="600" y="215" fill="#4b5563" font-size="17">Building Intelligent Workflows &amp; AI-Powered Digital Solutions</text>
+    <text x="600" y="174" fill="#0284c7" font-size="24" font-weight="600">AI Automation &amp; Robotics Developer</text>
+    <text x="600" y="215" fill="#4b5563" font-size="17">Software · Automation · AI · Robotics</text>
   </g>
 </svg>

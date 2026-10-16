@@ -1,63 +1,39 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="350" viewBox="0 0 1200 350" role="img" aria-labelledby="title desc">
-  <title id="title">GitHub analytics</title>
-  <desc id="desc">Three-column activity dashboard with a glowing green line graph and separated rounded donut segments.</desc>
-  <defs>
-    <linearGradient id="activityFill" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#22c55e" stop-opacity=".22"/>
-      <stop offset="1" stop-color="#22c55e" stop-opacity="0"/>
-    </linearGradient>
-    <filter id="greenGlow" x="-20%" y="-80%" width="140%" height="260%">
-      <feGaussianBlur stdDeviation="5" result="blur"/>
-      <feFlood flood-color="#22c55e" flood-opacity=".48" result="color"/>
-      <feComposite in="color" in2="blur" operator="in" result="shadow"/>
-      <feMerge><feMergeNode in="shadow"/><feMergeNode in="SourceGraphic"/></feMerge>
-    </filter>
-  </defs>
-
-  <rect width="1200" height="350" fill="#ffffff"/>
-  <g font-family="'Segoe UI',Arial,sans-serif">
-    <g transform="translate(28 24)">
-      <text x="170" y="24" text-anchor="middle" fill="#111827" font-size="20" font-weight="700">Contribution Activity</text>
-      <text x="170" y="48" text-anchor="middle" fill="#64748b" font-size="12">Last 12 months</text>
-      <g stroke="#e2e8f0" stroke-width="1">
-        <path d="M18 92 H352"/><path d="M18 132 H352"/><path d="M18 172 H352"/><path d="M18 212 H352"/>
-      </g>
-      <path d="M18 212 C42 204 60 218 82 200 S118 156 142 174 S174 190 198 158 S230 116 252 142 S282 176 302 112 S330 76 352 92 L352 230 L18 230 Z" fill="url(#activityFill)"/>
-      <path d="M18 212 C42 204 60 218 82 200 S118 156 142 174 S174 190 198 158 S230 116 252 142 S282 176 302 112 S330 76 352 92" fill="none" stroke="#22c55e" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" filter="url(#greenGlow)"/>
-      <g fill="#ffffff" stroke="#22c55e" stroke-width="3">
-        <circle cx="82" cy="200" r="4"/><circle cx="142" cy="174" r="4"/><circle cx="198" cy="158" r="4"/><circle cx="252" cy="142" r="4"/><circle cx="302" cy="112" r="4"/><circle cx="352" cy="92" r="4"/>
-      </g>
-      <text x="18" y="254" fill="#94a3b8" font-size="11">Sep</text>
-      <text x="172" y="254" fill="#94a3b8" font-size="11">Mar</text>
-      <text x="330" y="254" fill="#94a3b8" font-size="11">Sep</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" role="img" aria-labelledby="title desc">
+  <title id="title">Engineering focus</title>
+  <desc id="desc">Three technical areas: AI and Telegram automation, web applications and cloud services, and robotics and computer vision. Illustrative categories, not fabricated GitHub activity statistics.</desc>
+  <rect width="1200" height="340" rx="18" fill="#ffffff"/>
+  <g font-family="Segoe UI,Arial,sans-serif">
+    <text x="600" y="49" text-anchor="middle" font-size="25" fill="#0f172a" font-weight="700">Engineering Focus</text>
+    <text x="600" y="75" text-anchor="middle" font-size="14" fill="#64748b">Practical systems across software, AI, and hardware</text>
+    <g transform="translate(30 105)">
+      <rect width="360" height="202" rx="18" fill="#f8fafc" stroke="#cbd5e1"/>
+      <rect width="7" height="202" rx="3.5" fill="#0ea5e9"/>
+      <circle cx="46" cy="45" r="19" fill="#e0f2fe"/>
+      <path d="M36 45h20M46 35v20" stroke="#0284c7" stroke-width="3" stroke-linecap="round"/>
+      <text x="75" y="51" font-size="19" font-weight="700" fill="#0f172a">AI &amp; Automation</text>
+      <text x="29" y="94" font-size="15" fill="#475569">AI agents and API integration</text>
+      <text x="29" y="124" font-size="15" fill="#475569">Telegram bots and workflows</text>
+      <text x="29" y="154" font-size="15" fill="#475569">Python · FastAPI · Webhooks</text>
     </g>
-
-    <g transform="translate(418 24)">
-      <text x="170" y="24" text-anchor="middle" fill="#111827" font-size="20" font-weight="700">Repository Languages</text>
-      <g transform="translate(170 142) rotate(-90)" fill="none" stroke-width="25" stroke-linecap="round">
-        <circle r="72" stroke="#f43f72" pathLength="100" stroke-dasharray="34 66" stroke-dashoffset="0"/>
-        <circle r="72" stroke="#f4511e" pathLength="100" stroke-dasharray="34 66" stroke-dashoffset="-40"/>
-        <circle r="72" stroke="#2878a5" pathLength="100" stroke-dasharray="14 86" stroke-dashoffset="-80"/>
-      </g>
-      <g font-size="14" fill="#334155">
-        <circle cx="70" cy="260" r="5" fill="#f43f72"/><text x="82" y="265">C++ · 40%</text>
-        <circle cx="171" cy="260" r="5" fill="#f4511e"/><text x="183" y="265">HTML · 40%</text>
-        <circle cx="275" cy="260" r="5" fill="#2878a5"/><text x="287" y="265">Python · 20%</text>
-      </g>
+    <g transform="translate(420 105)">
+      <rect width="360" height="202" rx="18" fill="#f8fafc" stroke="#cbd5e1"/>
+      <rect width="7" height="202" rx="3.5" fill="#6366f1"/>
+      <circle cx="46" cy="45" r="19" fill="#eef2ff"/>
+      <path d="M35 39h22v15H35zM40 59h12" fill="none" stroke="#4f46e5" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+      <text x="75" y="51" font-size="19" font-weight="700" fill="#0f172a">Web &amp; Cloud</text>
+      <text x="29" y="94" font-size="15" fill="#475569">Full-stack web applications</text>
+      <text x="29" y="124" font-size="15" fill="#475569">Cloudflare Workers · D1 · R2</text>
+      <text x="29" y="154" font-size="15" fill="#475569">React · TypeScript · APIs</text>
     </g>
-
-    <g transform="translate(808 24)">
-      <text x="170" y="24" text-anchor="middle" fill="#111827" font-size="20" font-weight="700">Project Focus</text>
-      <g transform="translate(170 142) rotate(-90)" fill="none" stroke-width="25" stroke-linecap="round">
-        <circle r="72" stroke="#0ea5e9" pathLength="100" stroke-dasharray="44 56" stroke-dashoffset="0"/>
-        <circle r="72" stroke="#7c3aed" pathLength="100" stroke-dasharray="19 81" stroke-dashoffset="-50"/>
-        <circle r="72" stroke="#14b8a6" pathLength="100" stroke-dasharray="19 81" stroke-dashoffset="-75"/>
-      </g>
-      <g font-size="14" fill="#334155">
-        <circle cx="48" cy="260" r="5" fill="#0ea5e9"/><text x="60" y="265">Automation · 50%</text>
-        <circle cx="184" cy="260" r="5" fill="#7c3aed"/><text x="196" y="265">Robotics · 25%</text>
-        <circle cx="300" cy="260" r="5" fill="#14b8a6"/><text x="312" y="265">Web · 25%</text>
-      </g>
+    <g transform="translate(810 105)">
+      <rect width="360" height="202" rx="18" fill="#f8fafc" stroke="#cbd5e1"/>
+      <rect width="7" height="202" rx="3.5" fill="#14b8a6"/>
+      <circle cx="46" cy="45" r="19" fill="#ccfbf1"/>
+      <path d="M36 38l10 7-10 7M49 52h9" fill="none" stroke="#0f766e" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+      <text x="75" y="51" font-size="19" font-weight="700" fill="#0f172a">Robotics &amp; Vision</text>
+      <text x="29" y="94" font-size="15" fill="#475569">Embedded hardware and sensors</text>
+      <text x="29" y="124" font-size="15" fill="#475569">Gesture and Bluetooth control</text>
+      <text x="29" y="154" font-size="15" fill="#475569">Arduino · ESP32 · OpenCV</text>
     </g>
   </g>
 </svg>
