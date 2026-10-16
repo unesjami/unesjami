@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="356" viewBox="0 0 1200 356" role="img" aria-labelledby="title desc">
 <title id="title">GitHub activity and engineering portfolio</title>
-<desc id="desc">Three aligned dashboards: repository growth, repository languages and project focus. Donut chart segments have rounded ends with separate gaps, based on 15 project repositories as of October 16, 2026.</desc>
+<desc id="desc">Three aligned dashboards: repository growth, repository languages and project focus. Donut chart segments have rounded caps and nearly seamless transitions, based on 15 project repositories as of October 16, 2026.</desc>
 <defs><linearGradient id="growth" x1="0" x2="0" y1="0" y2="1"><stop offset="0" stop-color="#22C55E" stop-opacity=".22"/><stop offset="1" stop-color="#22C55E" stop-opacity="0"/></linearGradient></defs>
 <rect width="1200" height="356" rx="16" fill="#FFFFFF"/>
 <g font-family="Segoe UI,Arial,sans-serif">
@@ -23,11 +23,11 @@
 <rect x=".75" y=".75" width="371.5" height="328.5" rx="18" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1.5"/>
 <text x="186" y="34" text-anchor="middle" font-size="21" fill="#0F172A" font-weight="700">Repository Languages</text>
 <text x="186" y="57" text-anchor="middle" font-size="13" fill="#64748B">Primary GitHub language · by repo</text>
-<path d="M 201.24 94.87 A 63 63 0 0 1 247.62 169.10" fill="none" stroke="#2563EB" stroke-width="18" stroke-linecap="round"/>
-<path d="M 234.26 196.50 A 63 63 0 0 1 192.59 218.65" fill="none" stroke="#0EA5E9" stroke-width="18" stroke-linecap="round"/>
-<path d="M 162.40 214.41 A 63 63 0 0 1 136.81 195.36" fill="none" stroke="#F59E0B" stroke-width="18" stroke-linecap="round"/>
-<path d="M 124.09 167.66 A 63 63 0 0 1 126.31 135.84" fill="none" stroke="#14B8A6" stroke-width="18" stroke-linecap="round"/>
-<path d="M 142.77 110.18 A 63 63 0 0 1 170.76 94.87" fill="none" stroke="#6366F1" stroke-width="18" stroke-linecap="round"/>
+<path d="M 195.31 93.69 A 63 63 0 0 1 241.37 186.06" fill="none" stroke="#2563EB" stroke-width="18" stroke-linecap="round"/>
+<path d="M 230.16 200.93 A 63 63 0 0 1 174.52 217.95" fill="none" stroke="#0EA5E9" stroke-width="18" stroke-linecap="round"/>
+<path d="M 156.91 211.88 A 63 63 0 0 1 129.30 183.45" fill="none" stroke="#F59E0B" stroke-width="18" stroke-linecap="round"/>
+<path d="M 123.75 165.67 A 63 63 0 0 1 130.29 126.59" fill="none" stroke="#14B8A6" stroke-width="18" stroke-linecap="round"/>
+<path d="M 141.32 111.58 A 63 63 0 0 1 176.69 93.69" fill="none" stroke="#6366F1" stroke-width="18" stroke-linecap="round"/>
 <text x="186" y="154" text-anchor="middle" font-size="30" font-weight="700" fill="#0F172A">15</text>
 <text x="186" y="174" text-anchor="middle" font-size="13" fill="#64748B">repositories</text>
 <circle cx="33" cy="253" r="5.5" fill="#2563EB"/><text x="46" y="258" fill="#334155" font-size="14">Python · 6</text>
@@ -40,9 +40,9 @@
 <rect x=".75" y=".75" width="371.5" height="328.5" rx="18" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1.5"/>
 <text x="186" y="34" text-anchor="middle" font-size="21" fill="#0F172A" font-weight="700">Project Focus</text>
 <text x="186" y="57" text-anchor="middle" font-size="13" fill="#64748B">Portfolio groupings · by repo</text>
-<path d="M 201.24 94.87 A 63 63 0 0 1 206.30 215.64" fill="none" stroke="#0EA5E9" stroke-width="18" stroke-linecap="round"/>
-<path d="M 175.93 218.19 A 63 63 0 0 1 124.20 143.76" fill="none" stroke="#6366F1" stroke-width="18" stroke-linecap="round"/>
-<path d="M 137.18 116.18 A 63 63 0 0 1 170.76 94.87" fill="none" stroke="#14B8A6" stroke-width="18" stroke-linecap="round"/>
+<path d="M 195.31 93.69 A 63 63 0 0 1 193.35 218.57" fill="none" stroke="#0EA5E9" stroke-width="18" stroke-linecap="round"/>
+<path d="M 174.74 217.98 A 63 63 0 0 1 128.14 131.08" fill="none" stroke="#6366F1" stroke-width="18" stroke-linecap="round"/>
+<path d="M 137.95 115.25 A 63 63 0 0 1 176.69 93.69" fill="none" stroke="#14B8A6" stroke-width="18" stroke-linecap="round"/>
 <text x="186" y="154" text-anchor="middle" font-size="30" font-weight="700" fill="#0F172A">15</text>
 <text x="186" y="174" text-anchor="middle" font-size="13" fill="#64748B">repositories</text>
 <circle cx="92" cy="253" r="5.5" fill="#0EA5E9"/><text x="105" y="258" fill="#334155" font-size="14">AI &amp; Bots · 8</text>

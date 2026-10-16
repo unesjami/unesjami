@@ -1,8 +1,6 @@
 <p align="center">
-  <img src="./assets/profile-banner.svg" width="100%" alt="Unes Jami — AI Automation & Robotics Developer">
+  <img src="./assets/profile-banner.svg" width="100%" alt="Unes Jami — AI Automation and Robotics Developer, animated neural network banner">
 </p>
-
-<h3 align="center">Building practical solutions across AI, software, automation, and robotics.</h3>
 
 <p align="center">
   <a href="https://unes-personal.unesjami2020.workers.dev/"><img src="https://img.shields.io/badge/Portfolio-0F766E?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Personal website"></a>
@@ -14,65 +12,20 @@
   <a href="https://github.com/unesjami"><img src="https://img.shields.io/badge/GitHub-0B1F3A?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"></a>
 </p>
 
-## About Me
+<p align="center">
+  <strong>Building useful systems where AI, software and hardware meet.</strong>
+</p>
 
-I'm **Unes Jami**, an **AI Automation & Robotics Developer** and **Software Developer**. I build useful systems that bring together AI, APIs, modern web applications, Telegram automation, and embedded hardware.
+## What I Build
 
-My work spans designing digital products, developing backend services, integrating cloud infrastructure, and prototyping human–robot interaction. I also create digital solutions under **Faranovin** and contribute to independent client and team projects.
-
-- **AI & automation:** AI-assisted content workflows, bots, APIs, webhooks, and integrations.
-- **Software & web:** React/TypeScript applications, backends, databases, and Cloudflare deployments.
-- **Robotics:** Arduino and ESP32, sensors, Bluetooth control, OpenCV, and hand-gesture interaction.
-- **Product delivery:** Responsive UI, multilingual experiences, administration interfaces, and practical automation.
+<p align="center">
+  <img src="./assets/focus-overview.svg" width="100%" alt="AI and Telegram automation, web and cloud applications, robotics and computer vision">
+</p>
 
 ## GitHub Activity
 
 <p align="center">
-  <img width="100%" src="./assets/analytics.svg" alt="Repository growth, primary repository languages, and project focus as of October 2026">
-</p>
-
-
-## Engineering Focus
-
-<p align="center">
-  <img src="https://img.shields.io/badge/AI_%26_Telegram_Automation-0284C7?style=for-the-badge" alt="AI and Telegram Automation">
-  <img src="https://img.shields.io/badge/Web_%26_Cloud_Applications-6366F1?style=for-the-badge" alt="Web and Cloud Applications">
-  <img src="https://img.shields.io/badge/Robotics_%26_Computer_Vision-0F766E?style=for-the-badge" alt="Robotics and Computer Vision">
-</p>
-
-## Technology Stack
-
-<h3 align="center">AI, Automation &amp; Backend</h3>
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=python,fastapi,nodejs,mongodb,git,github" alt="Python, FastAPI, Node.js, MongoDB, Git, GitHub">
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Telegram_Bot_API-26A5E4?style=flat-square&logo=telegram&logoColor=white" alt="Telegram Bot API">
-  <img src="https://img.shields.io/badge/REST_APIs-0F172A?style=flat-square" alt="REST APIs">
-  <img src="https://img.shields.io/badge/AI_Agents-334155?style=flat-square" alt="AI Agents">
-  <img src="https://img.shields.io/badge/Render-000000?style=flat-square&logo=render&logoColor=white" alt="Render">
-</p>
-
-<h3 align="center">Web, Database &amp; Cloud</h3>
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,tailwind,cloudflare" alt="HTML, CSS, JavaScript, TypeScript, React, Tailwind CSS, Cloudflare">
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Cloudflare_Workers-F38020?style=flat-square&logo=cloudflare&logoColor=white" alt="Cloudflare Workers">
-  <img src="https://img.shields.io/badge/Cloudflare_D1-F38020?style=flat-square&logo=cloudflare&logoColor=white" alt="Cloudflare D1">
-  <img src="https://img.shields.io/badge/Cloudflare_R2-F38020?style=flat-square&logo=cloudflare&logoColor=white" alt="Cloudflare R2">
-</p>
-
-<h3 align="center">Robotics &amp; Computer Vision</h3>
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=arduino,cpp,opencv" alt="Arduino, C++, OpenCV">
-  <img src="https://img.shields.io/badge/ESP32-E7352C?style=flat-square&logo=espressif&logoColor=white" alt="ESP32">
-  <img src="https://img.shields.io/badge/MediaPipe-0097A7?style=flat-square&logo=google&logoColor=white" alt="MediaPipe">
+  <img src="./assets/analytics.svg" width="100%" alt="Repository growth, languages and project focus based on 15 project repositories as of October 2026">
 </p>
 
 ## Projects by Category
@@ -115,41 +68,48 @@ My work spans designing digital products, developing backend services, integrati
 </tr>
 </table>
 
-<sub>Cards marked **PRIVATE** describe products with private source code. Robotics **STACK** cards represent skills, not additional repositories.</sub>
+<sub>PRIVATE = closed source · STACK = skills and technologies</sub>
 
 <details>
 <summary><strong>Explore public source repositories</strong></summary>
 
-- [AI-Powered Content Automation](https://github.com/unesjami/AI-Powered-Content-Automation) — AI-powered captions and Telegram publishing.
-- [Gesture Interaction Robot](https://github.com/unesjami/Gesture-Interaction-Robot-GIR-) — hand gestures and embedded motion.
-- [Bluetooth-Controlled Arduino Car](https://github.com/unesjami/Bluetooth-Controlled-Arduino-Car) — Arduino and Bluetooth control.
-- [TimeOS](https://github.com/unesjami/TimeOS) — time and task management.
-- [Word Update / WordFlow](https://github.com/unesjami/Word-Update) — English–Persian vocabulary web app.
+- [AI-Powered Content Automation](https://github.com/unesjami/AI-Powered-Content-Automation)
+- [Gesture Interaction Robot](https://github.com/unesjami/Gesture-Interaction-Robot-GIR-)
+- [Bluetooth-Controlled Arduino Car](https://github.com/unesjami/Bluetooth-Controlled-Arduino-Car)
+- [TimeOS](https://github.com/unesjami/TimeOS)
+- [Word Update / WordFlow](https://github.com/unesjami/Word-Update)
 
 </details>
 
-## Selected Product & Client Work
 
-> The projects below have **private source code**. These are high-level descriptions, not public repository links. Project status varies; listed work is not necessarily a completed public launch.
+## Tech Toolbox
 
-| Project | Scope |
-| --- | --- |
-| **Faranovin Services** | Telegram Mini App for a bilingual services catalog, orders, and admin-managed offerings (React, TypeScript, Cloudflare). |
-| **Faranovin Academy Platform** | Configurable Telegram academy automation platform with subscription controls and Cloudflare infrastructure. |
-| **Personal Portfolio Website** | English–Persian React portfolio with editable content, projects, services, and owner tools. |
-| **Karyar Team Website** | Responsive, multilingual corporate and academy website with backend-managed content, forms, and administrative roles. |
-| **Scholar Guidance** | Cloudflare Workers foundation for an upcoming website redesign; currently infrastructure-stage work. |
-| **Afghanistan News Bot** | Automated news collection, deduplication, Dari summaries, and Telegram publishing. |
-| **Post Optimizer Bot** | Telegram post composer with formatting, inline actions, saved posts, and scheduling. |
-| **Karyar Group Admin Bot** | Community onboarding, administrative commands, and moderation workflows. |
-| **Telegram Reaction Bots** | Multi-bot Telegram reaction automation and administrative checks. |
-| **Faranovin Support Bot** | Telegram support automation for Faranovin services. |
+<p align="center"><strong>AI &amp; Automation</strong></p>
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=python,fastapi,nodejs,mongodb,git,github" alt="Python, FastAPI, Node.js, MongoDB, Git, GitHub">
+  <img src="https://img.shields.io/badge/Telegram_Bot_API-229ED9?style=flat-square&amp;logo=telegram&amp;logoColor=white" alt="Telegram Bot API">
+</p>
 
-## Current Direction
+<p align="center"><strong>Web &amp; Cloud</strong></p>
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,tailwind,cloudflare" alt="HTML, CSS, JavaScript, TypeScript, React, Tailwind, Cloudflare">
+  <img src="https://img.shields.io/badge/Workers-F38020?style=flat-square&amp;logo=cloudflare&amp;logoColor=white" alt="Cloudflare Workers">
+  <img src="https://img.shields.io/badge/D1-F38020?style=flat-square&amp;logo=cloudflare&amp;logoColor=white" alt="Cloudflare D1">
+  <img src="https://img.shields.io/badge/R2-F38020?style=flat-square&amp;logo=cloudflare&amp;logoColor=white" alt="Cloudflare R2">
+</p>
 
-- Building reusable AI and Telegram automation products that solve practical problems.
-- Developing full-stack services and multilingual web experiences on Cloudflare.
-- Expanding my skills in secure APIs, authentication, databases, and deployment pipelines.
-- Continuing hands-on robotics and computer-vision projects.
+<p align="center"><strong>Robotics &amp; Vision</strong></p>
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=arduino,cpp,opencv" alt="Arduino, C++, OpenCV">
+  <img src="https://img.shields.io/badge/ESP32-E7352C?style=flat-square&amp;logo=espressif&amp;logoColor=white" alt="ESP32">
+  <img src="https://img.shields.io/badge/MediaPipe-00897B?style=flat-square&amp;logo=google&amp;logoColor=white" alt="MediaPipe">
+</p>
+
+<p align="center"><strong>More automation work</strong></p>
+<p align="center">
+  <img src="https://img.shields.io/badge/Karyar_Group_Admin-Private-334155?style=flat-square" alt="Karyar Group Admin private project">
+  <img src="https://img.shields.io/badge/Telegram_Reaction_Bots-Private-334155?style=flat-square" alt="Telegram Reaction Bots private project">
+  <img src="https://img.shields.io/badge/Faranovin_Support-Private-334155?style=flat-square" alt="Faranovin Support private project">
+</p>
 
 <p align="center"><strong>Build. Automate. Evolve.</strong></p>

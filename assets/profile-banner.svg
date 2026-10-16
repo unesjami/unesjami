@@ -1,65 +1,76 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title desc">
-  <title id="title">Unes Jami — AI Automation &amp; Robotics Developer</title>
-  <desc id="desc">Minimal white banner with mirrored animated neural networks.</desc>
-  <defs>
-    <radialGradient id="glow">
-      <stop offset="0" stop-color="#0ea5e9" stop-opacity=".14"/>
-      <stop offset="1" stop-color="#0ea5e9" stop-opacity="0"/>
-    </radialGradient>
-    <filter id="soft"><feGaussianBlur stdDeviation="2.5"/></filter>
-    <filter id="nodeGlow" x="-100%" y="-100%" width="300%" height="300%">
-      <feGaussianBlur stdDeviation="3" result="blur"/>
-      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
-    </filter>
-
-    <g id="neural-network">
-      <g fill="none" stroke="#111827" stroke-width="1" stroke-linecap="round" stroke-opacity=".18">
-        <path d="M28 62 C78 62 74 48 124 48 S178 78 222 78 S280 112 332 112"/>
-        <path d="M28 62 C76 72 82 116 124 116 S176 78 222 78"/>
-        <path d="M28 150 C78 150 78 116 124 116 S174 150 222 150 S280 112 332 112"/>
-        <path d="M28 150 C78 150 78 184 124 184 S174 150 222 150 S280 188 332 188"/>
-        <path d="M28 238 C76 228 82 184 124 184 S176 222 222 222 S280 188 332 188"/>
-        <path d="M124 48 C168 60 176 138 222 150"/>
-        <path d="M124 116 C170 126 178 208 222 222"/>
-        <path d="M124 184 C170 172 178 92 222 78"/>
-        <path d="M124 252 C166 246 178 224 222 222"/>
-        <path d="M222 78 C270 78 284 150 344 150"/>
-        <path d="M222 150 C270 150 292 150 344 150"/>
-        <path d="M222 222 C270 222 284 150 344 150"/>
-      </g>
-
-      <g fill="#0ea5e9" stroke="#ffffff" stroke-width="2">
-        <circle cx="28" cy="62" r="5"/><circle cx="28" cy="150" r="5"/><circle cx="28" cy="238" r="5"/>
-        <circle cx="124" cy="48" r="6"/><circle cx="124" cy="116" r="5"/><circle cx="124" cy="184" r="6"/><circle cx="124" cy="252" r="4.5"/>
-        <circle cx="222" cy="78" r="6"/><circle cx="222" cy="150" r="7"/><circle cx="222" cy="222" r="6"/>
-        <circle cx="332" cy="112" r="5"/><circle cx="332" cy="188" r="5"/>
-        <circle cx="344" cy="150" r="7" filter="url(#nodeGlow)">
-          <animate attributeName="r" values="6;9;6" dur="3.8s" repeatCount="indefinite"/>
-        </circle>
-      </g>
-
-      <g fill="#38bdf8" filter="url(#soft)">
-        <circle r="3"><animateMotion dur="7.5s" repeatCount="indefinite" path="M28 62 C78 62 74 48 124 48 S178 78 222 78 S280 112 332 112"/></circle>
-        <circle r="3"><animateMotion dur="9s" repeatCount="indefinite" path="M28 150 C78 150 78 184 124 184 S174 150 222 150 S280 188 332 188"/></circle>
-        <circle r="2.5"><animateMotion dur="8.2s" repeatCount="indefinite" path="M28 238 C76 228 82 184 124 184 S176 222 222 222 S280 188 332 188"/></circle>
-      </g>
-
-      <g fill="none" stroke="#0ea5e9" stroke-opacity=".16">
-        <circle cx="344" cy="150" r="18"><animate attributeName="r" values="12;28" dur="3s" repeatCount="indefinite"/><animate attributeName="opacity" values=".5;0" dur="3s" repeatCount="indefinite"/></circle>
-      </g>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="banner-title banner-desc">
+<title id="banner-title">Unes Jami — AI Automation and Robotics Developer</title>
+<desc id="banner-desc">Animated neural pathways, glowing signal particles and orbiting nodes surround the name Unes Jami. A modern, dark technology banner.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#081224"/><stop offset=".55" stop-color="#111B38"/><stop offset="1" stop-color="#071627"/>
+  </linearGradient>
+  <radialGradient id="aura"><stop offset="0" stop-color="#21C3EE" stop-opacity=".31"/><stop offset=".52" stop-color="#5267FF" stop-opacity=".09"/><stop offset="1" stop-color="#21C3EE" stop-opacity="0"/></radialGradient>
+  <linearGradient id="name" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#F8FAFC"/><stop offset=".55" stop-color="#E7F8FF"/><stop offset="1" stop-color="#BCEAFB"/>
+  </linearGradient>
+  <linearGradient id="wire" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#38BDF8" stop-opacity=".35"/><stop offset=".6" stop-color="#6A87FE" stop-opacity=".38"/><stop offset="1" stop-color="#2DD4BF" stop-opacity=".15"/>
+  </linearGradient>
+  <filter id="halo" x="-100%" y="-100%" width="300%" height="300%">
+    <feGaussianBlur stdDeviation="5" result="soft"/><feMerge><feMergeNode in="soft"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+    <path d="M40 0H0V40" fill="none" stroke="#D5EEFF" stroke-width=".65" stroke-opacity=".045"/>
+  </pattern>
+  <clipPath id="clip"><rect width="1200" height="320" rx="21"/></clipPath>
+  <g id="network">
+    <g fill="none" stroke="url(#wire)" stroke-width="1.25" stroke-linecap="round">
+      <path id="p1" d="M 16 56 C 66 32 92 95 136 83 S 216 40 268 82 S 310 114 358 112"/>
+      <path id="p2" d="M 15 164 C 78 160 92 122 136 130 S 213 197 268 152 S 309 143 358 159"/>
+      <path id="p3" d="M 16 266 C 65 292 100 240 136 238 S 207 207 268 237 S 308 200 358 202"/>
+      <path d="M 16 56 C 72 110 86 140 136 130 S 216 132 268 152"/>
+      <path d="M 16 164 C 69 191 93 223 136 238 S 214 264 268 237"/>
+      <path d="M 136 83 C 194 100 202 181 268 237"/>
+      <path d="M 136 238 C 185 220 215 86 268 82"/>
+      <path d="M 136 130 C 195 114 217 97 268 82"/>
+      <path d="M 268 82 C 298 91 323 136 358 159"/>
+      <path d="M 268 237 C 310 215 323 180 358 159"/>
     </g>
-  </defs>
-
-  <rect width="1200" height="300" rx="18" fill="#ffffff"/>
-  <rect x="1" y="1" width="1198" height="298" rx="17" fill="none" stroke="#111827" stroke-opacity=".12"/>
-  <ellipse cx="600" cy="150" rx="370" ry="175" fill="url(#glow)"/>
-
-  <use href="#neural-network"/>
-  <use href="#neural-network" transform="translate(1200 0) scale(-1 1)"/>
-
-  <g text-anchor="middle" font-family="'Trebuchet MS','Segoe UI',Arial,sans-serif">
-    <text x="600" y="126" fill="#111827" font-size="53" font-weight="700">Unes Jami</text>
-    <text x="600" y="174" fill="#0284c7" font-size="24" font-weight="600">AI Automation &amp; Robotics Developer</text>
-    <text x="600" y="215" fill="#4b5563" font-size="17">Software · Automation · AI · Robotics</text>
+    <g fill="#38BDF8" stroke="#07162B" stroke-width="2">
+      <circle cx="16" cy="56" r="4"/><circle cx="16" cy="164" r="4.5"/><circle cx="16" cy="266" r="3.5"/>
+      <circle cx="136" cy="83" r="5.5"/><circle cx="136" cy="130" r="5"/><circle cx="136" cy="238" r="5.5"/>
+      <circle cx="268" cy="82" r="5"/><circle cx="268" cy="152" r="6.5"/><circle cx="268" cy="237" r="5.5"/>
+      <circle cx="358" cy="112" r="4.5"/><circle cx="358" cy="159" r="8" fill="#2DD4BF" filter="url(#halo)">
+        <animate attributeName="r" values="6.5;9;6.5" dur="3.6s" repeatCount="indefinite"/>
+      </circle><circle cx="358" cy="202" r="4.5"/>
+    </g>
+    <g fill="#E5F7FF" filter="url(#halo)">
+      <circle r="3.4"><animateMotion dur="5.5s" repeatCount="indefinite" path="M 16 56 C 66 32 92 95 136 83 S 216 40 268 82 S 310 114 358 112"/></circle>
+      <circle r="3"><animateMotion dur="7.8s" begin="-.8s" repeatCount="indefinite" path="M 15 164 C 78 160 92 122 136 130 S 213 197 268 152 S 309 143 358 159"/></circle>
+      <circle r="3.4"><animateMotion dur="7.1s" begin="-2s" repeatCount="indefinite" path="M 16 266 C 65 292 100 240 136 238 S 207 207 268 237 S 308 200 358 202"/></circle>
+    </g>
+    <g fill="none" stroke="#22D3EE" stroke-width="1">
+      <circle cx="358" cy="159" r="13" opacity=".35">
+        <animate attributeName="r" values="13;37" dur="3.5s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values=".42;0" dur="3.5s" repeatCount="indefinite"/>
+      </circle>
+    </g>
   </g>
+</defs>
+<g clip-path="url(#clip)">
+  <rect width="1200" height="320" fill="url(#bg)"/>
+  <rect width="1200" height="320" fill="url(#grid)"/>
+  <ellipse cx="600" cy="162" rx="440" ry="218" fill="url(#aura)">
+    <animate attributeName="opacity" values=".60;1;.60" dur="7s" repeatCount="indefinite"/>
+  </ellipse>
+  <ellipse cx="130" cy="135" rx="140" ry="130" fill="url(#aura)" opacity=".5"/>
+  <ellipse cx="1070" cy="135" rx="140" ry="130" fill="url(#aura)" opacity=".5"/>
+  <use href="#network"/>
+  <use href="#network" transform="translate(1200 0) scale(-1 1)"/>
+  <rect x="419" y="55" width="362" height="210" rx="28" fill="#0C1730" opacity=".64"/>
+  <rect x="419.8" y="55.8" width="360.4" height="208.4" rx="27" stroke="#5E99CC" stroke-opacity=".20" fill="none"/>
+  <g font-family="Segoe UI,Arial,sans-serif" text-anchor="middle">
+    <text x="600" y="100" font-size="15" font-weight="700" letter-spacing="4" fill="#75E3F2">BUILD · AUTOMATE · EVOLVE</text>
+    <text x="600" y="173" font-size="59" font-weight="800" fill="url(#name)">Unes Jami</text>
+    <text x="600" y="213" font-size="20" font-weight="600" fill="#5ADBF4">AI AUTOMATION &amp; ROBOTICS</text>
+    <text x="600" y="242" font-size="14" fill="#BDD3EA" letter-spacing="1.1">SOFTWARE  /  CLOUD  /  COMPUTER VISION</text>
+  </g>
+  <rect x="1" y="1" width="1198" height="318" rx="20" fill="none" stroke="#A2DFFF" stroke-opacity=".18"/>
+</g>
 </svg>
