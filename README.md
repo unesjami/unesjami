@@ -77,52 +77,45 @@ My work spans designing digital products, developing backend services, integrati
 
 ## Projects by Category
 
-<table>
+<table width="100%">
 <tr>
-<td width="33%" align="center" valign="top">
-
-### Telegram &amp; AI
-
-<a href="https://github.com/unesjami/AI-Powered-Content-Automation"><img src="./assets/cards/ai-content.svg" width="100%" alt="AI Content Automation project card"></a>
-
-<a href="https://t.me/PostOptimizeBot"><img src="https://img.shields.io/badge/Post_Optimizer-Open_Bot-229ED9?style=for-the-badge&logo=telegram&logoColor=white" alt="Post Optimizer Telegram bot"></a>
-
-<img src="https://img.shields.io/badge/Faranovin_Services-Private-6366F1?style=flat-square" alt="Faranovin Services private project">
-<img src="https://img.shields.io/badge/Faranovin_Academy-Private-6366F1?style=flat-square" alt="Faranovin Academy private project">
-<img src="https://img.shields.io/badge/Afghanistan_News_Bot-Private-6366F1?style=flat-square" alt="Afghanistan News Bot private project">
-
-<sub>AI-assisted publishing, bots, community tools and Telegram Mini Apps.</sub>
-
-</td>
-<td width="33%" align="center" valign="top">
-
-### Robotics
-
-<a href="https://github.com/unesjami/Gesture-Interaction-Robot-GIR-"><img src="./assets/cards/gir.svg" width="100%" alt="Gesture Interaction Robot project card"></a>
-
-<a href="https://github.com/unesjami/Bluetooth-Controlled-Arduino-Car"><img src="./assets/cards/bluetooth-car.svg" width="100%" alt="Bluetooth Arduino Car project card"></a>
-
-<sub>Computer vision, gestures, embedded electronics and Arduino.</sub>
-
-</td>
-<td width="33%" align="center" valign="top">
-
-### Web &amp; Cloud
-
-<a href="https://unes-personal.unesjami2020.workers.dev/"><img src="https://img.shields.io/badge/My_Portfolio-Visit_Website-0F766E?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Personal portfolio website"></a>
-
-<a href="https://unesjami.github.io/TimeOS/"><img src="./assets/cards/timeos.svg" width="100%" alt="TimeOS web application project card"></a>
-
-<a href="https://unesjami.github.io/Word-Update/"><img src="https://img.shields.io/badge/WordFlow-Live_Demo-2563EB?style=for-the-badge&logo=html5&logoColor=white" alt="WordFlow web app"></a>
-
-<img src="https://img.shields.io/badge/Karyar_Website-Private-6366F1?style=flat-square" alt="Karyar Website private project">
-<img src="https://img.shields.io/badge/Scholar_Guidance-Private-6366F1?style=flat-square" alt="Scholar Guidance private project">
-
-<sub>React, TypeScript, multilingual websites and Cloudflare services.</sub>
-
-</td>
+<th width="33%" align="center">Telegram &amp; AI</th>
+<th width="33%" align="center">Robotics</th>
+<th width="33%" align="center">Web &amp; Cloud</th>
+</tr>
+<tr>
+<td width="33%" align="center" valign="middle"><a href="https://github.com/unesjami/AI-Powered-Content-Automation"><img src="./assets/project-cards/ai-content.svg" width="100%" alt="AI Content Automation project link"></a></td>
+<td width="33%" align="center" valign="middle"><a href="https://github.com/unesjami/Gesture-Interaction-Robot-GIR-"><img src="./assets/project-cards/gir.svg" width="100%" alt="Gesture Interaction Robot project link"></a></td>
+<td width="33%" align="center" valign="middle"><a href="https://unes-personal.unesjami2020.workers.dev/"><img src="./assets/project-cards/portfolio.svg" width="100%" alt="Personal Portfolio project link"></a></td>
+</tr>
+<tr>
+<td width="33%" align="center" valign="middle"><a href="https://t.me/PostOptimizeBot"><img src="./assets/project-cards/post-optimizer.svg" width="100%" alt="Post Optimizer Bot project link"></a></td>
+<td width="33%" align="center" valign="middle"><a href="https://github.com/unesjami/Bluetooth-Controlled-Arduino-Car"><img src="./assets/project-cards/arduino-car.svg" width="100%" alt="Bluetooth Arduino Car project link"></a></td>
+<td width="33%" align="center" valign="middle"><a href="https://unesjami.github.io/TimeOS/"><img src="./assets/project-cards/timeos.svg" width="100%" alt="TimeOS project link"></a></td>
+</tr>
+<tr>
+<td width="33%" align="center" valign="middle"><img src="./assets/project-cards/faranovin-services.svg" width="100%" alt="Faranovin Services private-source project"></td>
+<td width="33%" align="center" valign="middle"><img src="./assets/project-cards/embedded.svg" width="100%" alt="Arduino &amp; ESP32 technology focus"></td>
+<td width="33%" align="center" valign="middle"><a href="https://unesjami.github.io/Word-Update/"><img src="./assets/project-cards/wordflow.svg" width="100%" alt="WordFlow project link"></a></td>
+</tr>
+<tr>
+<td width="33%" align="center" valign="middle"><img src="./assets/project-cards/faranovin-academy.svg" width="100%" alt="Faranovin Academy private-source project"></td>
+<td width="33%" align="center" valign="middle"><img src="./assets/project-cards/computer-vision.svg" width="100%" alt="Computer Vision technology focus"></td>
+<td width="33%" align="center" valign="middle"><img src="./assets/project-cards/karyar-website.svg" width="100%" alt="Karyar Team Website private-source project"></td>
+</tr>
+<tr>
+<td width="33%" align="center" valign="middle"><img src="./assets/project-cards/afghan-news.svg" width="100%" alt="Afghanistan News Bot private-source project"></td>
+<td width="33%" align="center" valign="middle"><img src="./assets/project-cards/robotic-control.svg" width="100%" alt="Robotic Control technology focus"></td>
+<td width="33%" align="center" valign="middle"><img src="./assets/project-cards/scholar-guidance.svg" width="100%" alt="Scholar Guidance private-source project"></td>
+</tr>
+<tr>
+<td width="33%" align="center" valign="top"><sub>Automation, Telegram bots and AI-powered digital products</sub></td>
+<td width="33%" align="center" valign="top"><sub>Robotics projects and engineering technologies</sub></td>
+<td width="33%" align="center" valign="top"><sub>Web applications, portfolio and Cloudflare infrastructure</sub></td>
 </tr>
 </table>
+
+<sub>Cards marked **PRIVATE** describe products with private source code. Robotics **STACK** cards represent skills, not additional repositories.</sub>
 
 <details>
 <summary><strong>Explore public source repositories</strong></summary>

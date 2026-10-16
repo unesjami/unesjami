@@ -1,59 +1,53 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="350" viewBox="0 0 1200 350" role="img" aria-labelledby="title desc">
-  <title id="title">GitHub activity and project portfolio</title>
-  <desc id="desc">Accurate repository growth timeline for 15 non-profile repositories as of October 16, 2026, and charts of repository primary language and project focus. Includes private projects without linking private source code. These are not GitHub contribution statistics.</desc>
-  <defs>
-    <linearGradient id="growth" x1="0" x2="0" y1="0" y2="1">
-      <stop offset="0" stop-color="#22c55e" stop-opacity="0.25"/>
-      <stop offset="1" stop-color="#22c55e" stop-opacity="0"/>
-    </linearGradient>
-    <filter id="glow" x="-20%" y="-35%" width="140%" height="170%">
-      <feGaussianBlur stdDeviation="2.2" result="b"/>
-      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
-    </filter>
-  </defs>
-  <rect width="1200" height="350" rx="18" fill="#ffffff"/>
-  <g font-family="Segoe UI,Arial,sans-serif">
-    <g transform="translate(20 14)">
-      <rect width="370" height="324" rx="15" fill="#f8fafc" stroke="#e2e8f0"/>
-      <text x="185" y="32" text-anchor="middle" fill="#0f172a" font-weight="700" font-size="19">Repository Growth</text>
-      <text x="185" y="54" text-anchor="middle" fill="#64748b" font-size="12">Project repositories · last 12 months</text>
-      <g stroke="#e2e8f0" stroke-width="1"><path d="M17 78H346 M17 126H346 M17 175H346 M17 224H346"/></g>
-      <path d="M 17,224 L 130.7,214.3 L 149.6,204.6 L 270.0,194.9 L 273.6,185.2 L 279.0,175.5 L 284.4,165.8 L 312.3,156.1 L 314.1,146.4 L 317.7,136.7 L 318.6,127.0 L 324.0,117.3 L 328.5,107.6 L 338.4,97.9 L 342.0,88.2 L 345.6,78.5 L 345.6,224 Z" fill="url(#growth)"/>
-      <polyline points="17.0,224.0 130.7,214.3 149.6,204.6 270.0,194.9 273.6,185.2 279.0,175.5 284.4,165.8 312.3,156.1 314.1,146.4 317.7,136.7 318.6,127.0 324.0,117.3 328.5,107.6 338.4,97.9 342.0,88.2 345.6,78.5" fill="none" stroke="#16a34a" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" filter="url(#glow)"/>
-      <circle cx="345.6" cy="78.5" r="5" fill="#16a34a" stroke="#fff" stroke-width="2"/>
-      <text x="17" y="248" fill="#64748b" font-size="11">Oct '25</text><text x="113" y="248" fill="#64748b" font-size="11">Feb</text><text x="218" y="248" fill="#64748b" font-size="11">Jun</text><text x="320" y="248" fill="#64748b" font-size="11">Oct '26</text>
-      <text x="185" y="285" text-anchor="middle" font-size="21" font-weight="700" fill="#0f172a">15 projects</text>
-      <text x="185" y="306" text-anchor="middle" font-size="12" fill="#64748b">7 new since Sep 15, 2026</text>
-    </g>
-    <g transform="translate(415 14)">
-      <rect width="370" height="324" rx="15" fill="#f8fafc" stroke="#e2e8f0"/>
-      <text x="185" y="32" text-anchor="middle" fill="#0f172a" font-weight="700" font-size="19">Repository Languages</text>
-      <text x="185" y="52" text-anchor="middle" fill="#64748b" font-size="12">Primary GitHub language · by repo</text>
-      <circle cx="185" cy="145" r="64" fill="none" stroke="#2563eb" stroke-width="22" stroke-linecap="round" pathLength="100" stroke-dasharray="38.80 61.20" stroke-dashoffset="-0.60" transform="rotate(-90 185 145)"/>
-<circle cx="185" cy="145" r="64" fill="none" stroke="#0ea5e9" stroke-width="22" stroke-linecap="round" pathLength="100" stroke-dasharray="18.80 81.20" stroke-dashoffset="-40.60" transform="rotate(-90 185 145)"/>
-<circle cx="185" cy="145" r="64" fill="none" stroke="#f59e0b" stroke-width="22" stroke-linecap="round" pathLength="100" stroke-dasharray="12.13 87.87" stroke-dashoffset="-60.60" transform="rotate(-90 185 145)"/>
-<circle cx="185" cy="145" r="64" fill="none" stroke="#14b8a6" stroke-width="22" stroke-linecap="round" pathLength="100" stroke-dasharray="12.13 87.87" stroke-dashoffset="-73.93" transform="rotate(-90 185 145)"/>
-<circle cx="185" cy="145" r="64" fill="none" stroke="#6366f1" stroke-width="22" stroke-linecap="round" pathLength="100" stroke-dasharray="12.13 87.87" stroke-dashoffset="-87.27" transform="rotate(-90 185 145)"/>
-      <text x="185" y="147" text-anchor="middle" fill="#0f172a" font-size="25" font-weight="700">15</text>
-      <text x="185" y="166" text-anchor="middle" fill="#64748b" font-size="11">repos</text>
-      <circle cx="24" cy="254" r="5" fill="#2563eb"/><text x="36" y="258" font-size="13" fill="#334155">Python · 6</text>
-      <circle cx="180" cy="254" r="5" fill="#0ea5e9"/><text x="192" y="258" font-size="13" fill="#334155">TypeScript · 3</text>
-      <circle cx="24" cy="277" r="5" fill="#f59e0b"/><text x="36" y="281" font-size="13" fill="#334155">JavaScript · 2</text>
-      <circle cx="180" cy="277" r="5" fill="#14b8a6"/><text x="192" y="281" font-size="13" fill="#334155">C++ · 2</text>
-      <circle cx="24" cy="300" r="5" fill="#6366f1"/><text x="36" y="304" font-size="13" fill="#334155">HTML · 2</text>
-    </g>
-    <g transform="translate(810 14)">
-      <rect width="370" height="324" rx="15" fill="#f8fafc" stroke="#e2e8f0"/>
-      <text x="185" y="32" text-anchor="middle" fill="#0f172a" font-weight="700" font-size="19">Project Focus</text>
-      <text x="185" y="52" text-anchor="middle" fill="#64748b" font-size="12">Portfolio groupings · by repo</text>
-      <circle cx="185" cy="145" r="64" fill="none" stroke="#0ea5e9" stroke-width="22" stroke-linecap="round" pathLength="100" stroke-dasharray="52.13 47.87" stroke-dashoffset="-0.60" transform="rotate(-90 185 145)"/>
-<circle cx="185" cy="145" r="64" fill="none" stroke="#6366f1" stroke-width="22" stroke-linecap="round" pathLength="100" stroke-dasharray="32.13 67.87" stroke-dashoffset="-53.93" transform="rotate(-90 185 145)"/>
-<circle cx="185" cy="145" r="64" fill="none" stroke="#14b8a6" stroke-width="22" stroke-linecap="round" pathLength="100" stroke-dasharray="12.13 87.87" stroke-dashoffset="-87.27" transform="rotate(-90 185 145)"/>
-      <text x="185" y="147" text-anchor="middle" fill="#0f172a" font-size="25" font-weight="700">15</text>
-      <text x="185" y="166" text-anchor="middle" fill="#64748b" font-size="11">repos</text>
-      <circle cx="83" cy="249" r="5" fill="#0ea5e9"/><text x="95" y="253" font-size="13" fill="#334155">AI &amp; Bots · 8</text>
-      <circle cx="83" cy="273" r="5" fill="#6366f1"/><text x="95" y="277" font-size="13" fill="#334155">Web &amp; Cloud · 5</text>
-      <circle cx="83" cy="297" r="5" fill="#14b8a6"/><text x="95" y="301" font-size="13" fill="#334155">Robotics · 2</text>
-    </g>
-  </g>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="356" viewBox="0 0 1200 356" role="img" aria-labelledby="title desc">
+<title id="title">GitHub activity and engineering portfolio</title>
+<desc id="desc">Three aligned dashboards: repository growth, repository languages and project focus. Donut chart segments have rounded ends with separate gaps, based on 15 project repositories as of October 16, 2026.</desc>
+<defs><linearGradient id="growth" x1="0" x2="0" y1="0" y2="1"><stop offset="0" stop-color="#22C55E" stop-opacity=".22"/><stop offset="1" stop-color="#22C55E" stop-opacity="0"/></linearGradient></defs>
+<rect width="1200" height="356" rx="16" fill="#FFFFFF"/>
+<g font-family="Segoe UI,Arial,sans-serif">
+<g transform="translate(16 13)">
+<rect x=".75" y=".75" width="371.5" height="328.5" rx="18" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1.5"/>
+<text x="186" y="34" text-anchor="middle" font-size="21" fill="#0F172A" font-weight="700">Repository Growth</text>
+<text x="186" y="57" text-anchor="middle" font-size="13" fill="#64748B">Project repositories · last 12 months</text>
+<g stroke="#E2E8F0"><path d="M17 78H346 M17 126H346 M17 175H346 M17 224H346"/></g>
+<path d="M 17,224 L 130.7,214.3 L 149.6,204.6 L 270.0,194.9 L 273.6,185.2 L 279.0,175.5 L 284.4,165.8 L 312.3,156.1 L 314.1,146.4 L 317.7,136.7 L 318.6,127.0 L 324.0,117.3 L 328.5,107.6 L 338.4,97.9 L 342.0,88.2 L 345.6,78.5 L 345.6,224 Z" fill="url(#growth)"/>
+<polyline points="17.0,224.0 130.7,214.3 149.6,204.6 270.0,194.9 273.6,185.2 279.0,175.5 284.4,165.8 312.3,156.1 314.1,146.4 317.7,136.7 318.6,127.0 324.0,117.3 328.5,107.6 338.4,97.9 342.0,88.2 345.6,78.5" fill="none" stroke="#16A34A" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="345.6" cy="78.5" r="5" fill="#16A34A" stroke="#FFFFFF" stroke-width="2.5"/>
+<text x="17" y="251" font-size="12" fill="#64748B">Oct '25</text>
+<text x="112" y="251" font-size="12" fill="#64748B">Feb</text>
+<text x="218" y="251" font-size="12" fill="#64748B">Jun</text>
+<text x="345" y="251" text-anchor="end" font-size="12" fill="#64748B">Oct '26</text>
+<text x="186" y="290" text-anchor="middle" font-size="23" font-weight="700" fill="#0F172A">15 projects</text>
+<text x="186" y="313" text-anchor="middle" font-size="13" fill="#64748B">7 new since Sep 15, 2026</text>
+</g>
+<g transform="translate(414 13)">
+<rect x=".75" y=".75" width="371.5" height="328.5" rx="18" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1.5"/>
+<text x="186" y="34" text-anchor="middle" font-size="21" fill="#0F172A" font-weight="700">Repository Languages</text>
+<text x="186" y="57" text-anchor="middle" font-size="13" fill="#64748B">Primary GitHub language · by repo</text>
+<path d="M 201.24 94.87 A 63 63 0 0 1 247.62 169.10" fill="none" stroke="#2563EB" stroke-width="18" stroke-linecap="round"/>
+<path d="M 234.26 196.50 A 63 63 0 0 1 192.59 218.65" fill="none" stroke="#0EA5E9" stroke-width="18" stroke-linecap="round"/>
+<path d="M 162.40 214.41 A 63 63 0 0 1 136.81 195.36" fill="none" stroke="#F59E0B" stroke-width="18" stroke-linecap="round"/>
+<path d="M 124.09 167.66 A 63 63 0 0 1 126.31 135.84" fill="none" stroke="#14B8A6" stroke-width="18" stroke-linecap="round"/>
+<path d="M 142.77 110.18 A 63 63 0 0 1 170.76 94.87" fill="none" stroke="#6366F1" stroke-width="18" stroke-linecap="round"/>
+<text x="186" y="154" text-anchor="middle" font-size="30" font-weight="700" fill="#0F172A">15</text>
+<text x="186" y="174" text-anchor="middle" font-size="13" fill="#64748B">repositories</text>
+<circle cx="33" cy="253" r="5.5" fill="#2563EB"/><text x="46" y="258" fill="#334155" font-size="14">Python · 6</text>
+<circle cx="198" cy="253" r="5.5" fill="#0EA5E9"/><text x="211" y="258" fill="#334155" font-size="14">TypeScript · 3</text>
+<circle cx="33" cy="278" r="5.5" fill="#F59E0B"/><text x="46" y="283" fill="#334155" font-size="14">JavaScript · 2</text>
+<circle cx="198" cy="278" r="5.5" fill="#14B8A6"/><text x="211" y="283" fill="#334155" font-size="14">C++ · 2</text>
+<circle cx="33" cy="303" r="5.5" fill="#6366F1"/><text x="46" y="308" fill="#334155" font-size="14">HTML · 2</text>
+</g>
+<g transform="translate(812 13)">
+<rect x=".75" y=".75" width="371.5" height="328.5" rx="18" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1.5"/>
+<text x="186" y="34" text-anchor="middle" font-size="21" fill="#0F172A" font-weight="700">Project Focus</text>
+<text x="186" y="57" text-anchor="middle" font-size="13" fill="#64748B">Portfolio groupings · by repo</text>
+<path d="M 201.24 94.87 A 63 63 0 0 1 206.30 215.64" fill="none" stroke="#0EA5E9" stroke-width="18" stroke-linecap="round"/>
+<path d="M 175.93 218.19 A 63 63 0 0 1 124.20 143.76" fill="none" stroke="#6366F1" stroke-width="18" stroke-linecap="round"/>
+<path d="M 137.18 116.18 A 63 63 0 0 1 170.76 94.87" fill="none" stroke="#14B8A6" stroke-width="18" stroke-linecap="round"/>
+<text x="186" y="154" text-anchor="middle" font-size="30" font-weight="700" fill="#0F172A">15</text>
+<text x="186" y="174" text-anchor="middle" font-size="13" fill="#64748B">repositories</text>
+<circle cx="92" cy="253" r="5.5" fill="#0EA5E9"/><text x="105" y="258" fill="#334155" font-size="14">AI &amp; Bots · 8</text>
+<circle cx="92" cy="278" r="5.5" fill="#6366F1"/><text x="105" y="283" fill="#334155" font-size="14">Web &amp; Cloud · 5</text>
+<circle cx="92" cy="303" r="5.5" fill="#14B8A6"/><text x="105" y="308" fill="#334155" font-size="14">Robotics · 2</text>
+</g>
+</g>
 </svg>
